@@ -1,8 +1,2 @@
-# voice
-
-A new Flutter application.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+# Voice
+A simple Flutter project demonstrating tailored native experiences
