@@ -7,6 +7,7 @@ import 'package:voice/model/country.dart';
 import 'package:voice/widget/document_content.dart';
 
 class PlatformContent {
+  
   List<Widget> generate(int categoryIndex, int selectedCountryIndex) {
     return _buildContentWidgets(categoryIndex, selectedCountryIndex);
   }
