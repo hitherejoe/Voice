@@ -40,6 +40,6 @@ Icon?
 /Flutter/Flutter.framework
 /Flutter/Generated.xcconfig
 /ServiceDefinitions.json
-
+GoogleService-Info.plist
 Pods/
 .symlinks/

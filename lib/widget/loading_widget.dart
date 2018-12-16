@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:voice/constants/keys.dart';
+import 'package:voice/constants/strings.dart';
 import 'package:voice/widget/platform_progress.dart';
 
 class LoadingWidget extends StatelessWidget {
@@ -29,13 +30,13 @@ class LoadingWidget extends StatelessWidget {
 
   String _buildQuote() {
     if (this.document == Keys.DOCUMENT_ANIMAL_RIGHTS) {
-      return "\"The greatness of a nation can be judged by the way its animals are treated\"";
+      return Strings.quote_animal_rights;
     } else if (this.document == Keys.DOCUMENT_SAB_GROUPS) {
-      return "\"Outdated and barbaric activities such as hunting should be consigned to the history books\"";
+      return Strings.quote_hunt_sabs;
     } else if (this.document == Keys.DOCUMENT_SHELTERS) {
-      return "\"Adopt, don't shop ❤\"️";
+      return Strings.quote_shelters;
     } else {
-      return "\"Anybody can make a difference and be a voice for the voiceless\"";
+      return Strings.quote_orgs;
     }
   }
 }

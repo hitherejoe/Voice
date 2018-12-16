@@ -9,5 +9,8 @@ build/
 .flutter-plugins
 
 /android/key.properties
-/android/app/google-services.json
-/ios/GoogleService-Info.plist
+android/app/google-services.json
+ios/GoogleService-Info.plist
+ios/GoogleService-Info.plist
+
+android/app/google-services.json
