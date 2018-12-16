@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4d1bbc-6f84-4044-8c42-5133da8f226d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/widget/platform_content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widget/platform_content.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/key.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/key.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="platform_content.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="platform_content.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widget/platform_content.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <file leaf-file-name="key.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android/key.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -215,7 +215,6 @@
         <option value="$PROJECT_DIR$/lib/model/country.dart" />
         <option value="$PROJECT_DIR$/lib/widget/platform_button.dart" />
         <option value="$PROJECT_DIR$/lib/widget/document_content.dart" />
-        <option value="$PROJECT_DIR$/android/key.properties" />
         <option value="$PROJECT_DIR$/lib/widget/platform_navigation.dart" />
         <option value="$PROJECT_DIR$/lib/widget/platform_category_tab.dart" />
         <option value="$PROJECT_DIR$/lib/widget/platform_widget.dart" />
@@ -235,6 +234,7 @@
         <option value="$PROJECT_DIR$/ios/GoogleService-Info.plist" />
         <option value="$PROJECT_DIR$/android/app/google-services.json" />
         <option value="$PROJECT_DIR$/lib/widget/platform_content.dart" />
+        <option value="$PROJECT_DIR$/android/key.properties" />
       </list>
     </option>
   </component>
@@ -767,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/key.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
@@ -892,10 +885,17 @@
     <entry file="file://$PROJECT_DIR$/lib/widget/platform_content.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/key.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
