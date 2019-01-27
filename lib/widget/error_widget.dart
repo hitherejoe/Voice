@@ -1,8 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:voice/constants/keys.dart';
 import 'package:voice/constants/strings.dart';
 import 'package:voice/widget/platform_button.dart';
-import 'package:voice/widget/platform_progress.dart';
 
 class ContentErrorWidget extends StatelessWidget {
   final onTryAgain;
