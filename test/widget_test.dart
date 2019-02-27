@@ -7,7 +7,7 @@ void main() {
   testWidgets('ContentErrorWidget has a message and action', (WidgetTester tester) async {
     await tester.pumpWidget(ContentErrorWidget());
 
-    final messageFinder = find.text(Strings.label_error_loading_content);
+    final messageFinder = find.text("Fail");
     final actionFinder = find.text(Strings.label_try_again);
 
     expect(messageFinder, findsOneWidget);
