@@ -14,10 +14,12 @@ class PlatformButton extends PlatformWidget<CupertinoButton, MaterialButton> {
     return MaterialButton(
       onPressed: onPressed,
       color: VoiceTheme.blaze_orange,
-      child: Text(
-        Strings.label_try_again,
-        style: TextStyle(color: Colors.white),
-      ),
+      child: Directionality(
+          textDirection: TextDirection.ltr,
+          child: Text(
+            Strings.label_try_again,
+            style: TextStyle(color: Colors.white),
+          )),
     );
   }
 
@@ -26,10 +28,12 @@ class PlatformButton extends PlatformWidget<CupertinoButton, MaterialButton> {
     return CupertinoButton(
       onPressed: onPressed,
       color: VoiceTheme.blaze_orange,
-      child: Text(
-        Strings.label_try_again,
-        style: TextStyle(color: Colors.white),
-      ),
+      child: Directionality(
+          textDirection: TextDirection.ltr,
+          child: Text(
+            Strings.label_try_again,
+            style: TextStyle(color: Colors.white),
+          )),
     );
   }
 }
