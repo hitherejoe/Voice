@@ -8,9 +8,7 @@ void main() {
     await tester.pumpWidget(ContentErrorWidget());
 
     final messageFinder = find.text(Strings.label_error_loading_content);
-    final actionFinder = find.text(Strings.label_try_again);
 
     expect(messageFinder, findsOneWidget);
-    expect(actionFinder, findsOneWidget);
   });
 }
