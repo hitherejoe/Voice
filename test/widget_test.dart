@@ -1,10 +1,16 @@
-// This is a basic Flutter widget test.
-// To perform an interaction with a widget in your test, use the WidgetTester utility that Flutter
-// provides. For example, you can send tap and scroll gestures. You can also use WidgetTester to
-// find child widgets in the widget tree, read text, and verify that the values of widget properties
-// are correct.
-
+import 'package:flutter_test/flutter_test.dart';
+import 'package:voice/constants/strings.dart';
+import 'package:voice/widget/error_widget.dart';
 
 void main() {
-  
+
+  testWidgets('ContentErrorWidget has a message and action', (WidgetTester tester) async {
+    await tester.pumpWidget(ContentErrorWidget());
+
+    final messageFinder = find.text(Strings.label_error_loading_content);
+    final actionFinder = find.text(Strings.label_try_again);
+
+    expect(messageFinder, findsOneWidget);
+    expect(actionFinder, findsOneWidget);
+  });
 }
