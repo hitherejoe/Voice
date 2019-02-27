@@ -15,11 +15,14 @@ class ContentErrorWidget extends StatelessWidget {
       children: <Widget>[
         Padding(
           padding: EdgeInsets.all(32.0),
-          child: Text(
-            Strings.label_error_loading_content,
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.w400),
-          ),
+          child: Directionality(
+              textDirection: TextDirection.ltr,
+              child: Text(
+                Strings.label_error_loading_content,
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.w400),
+              )
+            ),
         ),
         PlatformButton(
           onPressed: this.onTryAgain,
