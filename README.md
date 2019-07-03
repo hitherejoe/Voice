@@ -1,6 +1,6 @@
 # Voice
 
-![Voice screenshots](art/devices.png?raw=true)
+![Voice screenshots](art/devices.jpg?raw=true)
 
 Voice is a Flutter application that aims to help spread the awareness of animal rights groups from around the globe.
 
